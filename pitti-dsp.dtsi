@@ -52,7 +52,7 @@
 		qcom,msm_fastrpc_compute_cb5 {
 			compatible = "qcom,msm-fastrpc-compute-cb";
 			label = "adsprpc-smd";
-			iommus = <&apps_smmu 0227 0x0000>;
+			iommus = <&apps_smmu 0x0227 0x0000>;
 			qcom,iommu-dma-addr-pool = <0x80000000 0x78000000>;
 			qcom,iommu-faults = "stall-disable", "HUPCF";
 			qcom,iova-best-fit;
